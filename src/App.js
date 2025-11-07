@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { LineChart, Line, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { TrendingUp, TrendingDown, DollarSign, Activity, Zap, ArrowUpRight, ArrowDownRight, Sparkles } from 'lucide-react';
 
 const CryptoTracker = () => {
@@ -394,6 +394,11 @@ const CryptoTracker = () => {
       <div className="max-w-7xl mx-auto mt-12 text-center text-gray-400 text-sm">
         <p>Data provided by CoinGecko API • Updates every 60 seconds</p>
       </div>
+      
+      <div className="max-w-7xl mx-auto mt-4 mb-4 text-center text-gray-400 text-sm">
+      © 2025 Mia Dao. Built with React & Tailwind CSS
+    </div>
+
     </div>
   );
 };
