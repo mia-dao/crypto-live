@@ -16,6 +16,3 @@ This is a modern, responsive cryptocurrency tracker with real-time data visualiz
 - Lucide React for icons
 - Tailwind CSS for styling
 - CoinGecko API for real-time data
-
-## License
-MIT
